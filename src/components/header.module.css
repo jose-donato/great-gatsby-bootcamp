@@ -1,0 +1,21 @@
+.navList {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navItem {
+  margin-right: 1.3rem;
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: #666666;
+}
+
+.activeNavItem {
+  color: #333333;
+}
